@@ -5,7 +5,7 @@
 	<test name="Grouping" preserve-order="true">
 		
 		<classes>
-			<class name="com.mstr.scripts.LoginTest" />
+			<class name="com.mstr.scripts.SampleTestScript" />
 		</classes>
 	</test>
 </suite>

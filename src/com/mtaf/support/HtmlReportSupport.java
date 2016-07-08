@@ -239,7 +239,7 @@ public class HtmlReportSupport {
 					+ ".png></img>");
 			writer.write("</th>");
 			writer.write("<th class = 'Logos' colspan='2' > ");
-			writer.write("<img align ='right' src= .//Screenshots//gallop_logo.png></img>");
+			writer.write("<img align ='right' src= .//Screenshots//micro_logo.png></img>");
 			writer.write("</th> ");
 			writer.write("</tr> ");
 
@@ -372,7 +372,7 @@ public class HtmlReportSupport {
 			writer.write("<html> ");
 			writer.write("<head> ");
 			writer.write("<meta charset='UTF-8'> ");
-			writer.write("<title>ICAT - Automation Execution Results Summary</title>");
+			writer.write("<title>MSTR - Automation Execution Results Summary</title>");
 
 			writer.write("<style type='text/css'>");
 			writer.write("body {");
@@ -541,7 +541,7 @@ public class HtmlReportSupport {
 					+ ".png></img>");
 			writer.write("</th>");
 			writer.write("<th class = 'Logos' colspan='2' > ");
-			writer.write("<img align ='right' src= .//Screenshots//gallop_logo.png></img>");
+			writer.write("<img align ='right' src= .//Screenshots//micro_logo.png></img>");
 			writer.write("</th> ");
 			writer.write("</tr> ");
 
@@ -957,7 +957,7 @@ public class HtmlReportSupport {
 					+ ".png></img>");
 			writer.write("</th>");
 			writer.write("<th class = 'Logos' colspan='2' > ");			
-			writer.write("<img align ='right' src= .//Screenshots//gallop_logo.png></img>");
+			writer.write("<img align ='right' src= .//Screenshots//micro_logo.png></img>");
 			writer.write("</th> ");
 			writer.write("</tr> ");
 			writer.write("</thead> ");
@@ -1212,7 +1212,7 @@ public class HtmlReportSupport {
 					+ ".png></img>");
 			writer.write("</th>");
 			writer.write("<th class = 'Logos' colspan='2' > ");			
-			writer.write("<img align ='right' src= .//Screenshots//gallop_logo.png></img>");
+			writer.write("<img align ='right' src= .//Screenshots//micro_logo.png></img>");
 			writer.write("</th> ");
 			writer.write("</tr> ");
 			writer.write("</thead> ");

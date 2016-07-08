@@ -45,8 +45,8 @@ public class Reporter extends TestEngine {
 			if (configProps.getProperty("OnSuccessScreenshot")
 					.equalsIgnoreCase("True")) {
 				ActionEngine.screenShot(TestEngine.filePath()+"\\Screenshots\\"
-						+ strStepDes.replace(" ", "_") /*+ "_"
-						+ TestEngine.timeStamp*/ + ".jpeg");
+						+ strStepDes.replace(" ", "_") + "_"
+						+ TestEngine.timeStamp + ".jpeg");
 			}
 			HtmlReportSupport.onSuccess(strStepName, strStepDes);
 
@@ -56,8 +56,8 @@ public class Reporter extends TestEngine {
 			if (configProps.getProperty("OnSuccessScreenshot")
 					.equalsIgnoreCase("True")) {
 				ActionEngine.screenShot(TestEngine.filePath()+"\\Screenshots\\"
-						+ strStepDes.replace(" ", "_") /*+ "_"
-						+ TestEngine.timeStamp */+ ".jpeg");
+						+ strStepDes.replace(" ", "_") + "_"
+						+ TestEngine.timeStamp + ".jpeg");
 			}
 			HtmlReportSupport.onSuccess(strStepName, strStepDes);
 			break;
@@ -74,8 +74,8 @@ public class Reporter extends TestEngine {
 			break;
 		case 2:
 			ActionEngine.screenShot(TestEngine.filePath()+"\\Screenshots\\"
-					+ strStepDes.replace(" ", "_") /*+ "_"
-					+ TestEngine.timeStamp */+ ".jpeg");
+					+ strStepDes.replace(" ", "_") + "_"
+					+ TestEngine.timeStamp + ".jpeg");
 			flag = true;
 			HtmlReportSupport.onFailure(strStepName, strStepDes);
 			break;
@@ -83,7 +83,7 @@ public class Reporter extends TestEngine {
 		default:
 			flag = true;
 			ActionEngine.screenShot(TestEngine.filePath()+"\\Screenshots\\"
-					+ strStepDes.replace(" ", "_") /*+ "_" + TestEngine.timeStamp*/
+					+ strStepDes.replace(" ", "_") + "_" + TestEngine.timeStamp
 					+ ".jpeg");
 			HtmlReportSupport.onFailure(strStepName, strStepDes);
 			break;
@@ -100,8 +100,8 @@ public class Reporter extends TestEngine {
 			break;
 		case 2:
 			ActionEngine.screenShot(TestEngine.filePath()+"\\Screenshots\\"
-					+ strStepDes.replace(" ", "_") /*+ "_"
-					+ TestEngine.timeStamp*/ + ".jpeg");
+					+ strStepDes.replace(" ", "_") + "_"
+					+ TestEngine.timeStamp + ".jpeg");
 			flag = true;
 			HtmlReportSupport.onWarning(strStepName, strStepDes);
 			break;
@@ -109,7 +109,7 @@ public class Reporter extends TestEngine {
 		default:
 			flag = true;
 			ActionEngine.screenShot(TestEngine.filePath()+"\\Screenshots\\"
-					+ strStepDes.replace(" ", "_") /*+ "_" + TestEngine.timeStamp*/
+					+ strStepDes.replace(" ", "_") + "_" + TestEngine.timeStamp
 					+ ".jpeg");
 			HtmlReportSupport.onWarning(strStepName, strStepDes);
 			break;

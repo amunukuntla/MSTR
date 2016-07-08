@@ -1,4 +1,4 @@
-package com.mtaf.support;
+/*package com.mtaf.support;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class CSVDataManipulator {
-	/**
+	*//**
 	 * Returns an Array of ArrayList (String type) with all the CSV data of
 	 * proper size of m x n. Each columns is represented in an ArrayList with
 	 * first column represented by ArrayList[0], second one with ArrayList[1],
@@ -19,7 +19,7 @@ public class CSVDataManipulator {
 	 *            : FileName along with its path to read data from.
 	 * @return ArrayList<String>[] inputData.
 	 * @throws IOException
-	 */
+	 *//*
 	@SuppressWarnings("unchecked")
 	public ArrayList<String>[] getAllRecordsAsArrayList(String filePath)
 			throws IOException {
@@ -120,7 +120,7 @@ public class CSVDataManipulator {
 		}
 	}
 
-	/**
+	*//**
 	 * Returns a 2 Dimensional String Array with all the CSV data of proper size
 	 * of m x n. Each columns is represented in an ArrayList with first column
 	 * represented by ArrayList[0], second one with ArrayList[1], and so on...
@@ -129,13 +129,13 @@ public class CSVDataManipulator {
 	 *            : FileName along with its path.
 	 * @return
 	 * @throws IOException
-	 */
+	 *//*
 	public String[][] getAllRecordsAs2DArray(String filePath)
 			throws IOException {
 		return getAllRecordsAs2DArray(filePath, true);
 	}
 
-	/**
+	*//**
 	 * Returns a 2 Dimensional String Array with all the CSV data of proper size
 	 * of m x n. Each columns is represented in an ArrayList with first column
 	 * represented by ArrayList[0], second one with ArrayList[1], and so on...
@@ -147,7 +147,7 @@ public class CSVDataManipulator {
 	 *            headers.
 	 * @return
 	 * @throws IOException
-	 */
+	 *//*
 	public String[][] getAllRecordsAs2DArray(String filePath,
 			boolean ignoreHeaders) throws IOException {
 
@@ -177,7 +177,7 @@ public class CSVDataManipulator {
 		}
 	}
 
-	/**
+	*//**
 	 * Reads the line at specified line Number and returns an array with cell
 	 * values.
 	 * 
@@ -187,7 +187,7 @@ public class CSVDataManipulator {
 	 *            : : FileName along with its path to read data from.
 	 * @return
 	 * @throws IOException
-	 */
+	 *//*
 	public String[] readSpecifiedLine(int lineNumber, String filePath)
 			throws IOException {
 		BufferedReader br = null;
@@ -231,7 +231,7 @@ public class CSVDataManipulator {
 		}
 	}
 
-	/**
+	*//**
 	 * Writes the data to a csv file with data passed by an Array of ArrayList
 	 * parameter .
 	 * 
@@ -242,7 +242,7 @@ public class CSVDataManipulator {
 	 *            : FileName along with its path to write data to.
 	 * @return
 	 * @throws IOException
-	 */
+	 *//*
 
 	public boolean writeData(ArrayList<String>[] data, String filePath)
 			throws IOException {
@@ -274,7 +274,7 @@ public class CSVDataManipulator {
 		}
 	}
 
-	/**
+	*//**
 	 * Appends the data to a csv file with data passed by an Array of ArrayList
 	 * parameter .
 	 * 
@@ -285,7 +285,7 @@ public class CSVDataManipulator {
 	 *            : FileName along with its path to write data to.
 	 * @return
 	 * @throws IOException
-	 */
+	 *//*
 	public boolean appendData(ArrayList<String>[] data, String filePath)
 			throws IOException {
 
@@ -318,3 +318,4 @@ public class CSVDataManipulator {
 	}
 
 }
+*/

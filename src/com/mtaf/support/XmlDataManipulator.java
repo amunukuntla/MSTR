@@ -1,4 +1,4 @@
-package com.mtaf.support;
+/*package com.mtaf.support;
 
 import java.io.File;
 
@@ -17,7 +17,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 public class XmlDataManipulator {
-	/**
+	*//**
 	 * Returns a double dimentional array with element values of an XML file
 	 * passed as String Parameter. The sample file assumed to be in the below
 	 * format. <?xml version="1.0"?> <Class> <Student id="1">
@@ -27,7 +27,7 @@ public class XmlDataManipulator {
 	 * <salary>20000</salary> </Student> </Class>
 	 * 
 	 * @return String[][] is a 2D array with tabular representation of data.
-	 */
+	 *//*
 	public String[][] getXMLDataIn2DArray(String filePath) {
 		String[][] data = null;
 		int rows = 0, cols = 0, p = 0, q = 0;
@@ -100,7 +100,7 @@ public class XmlDataManipulator {
 		}
 	}
 
-	/**
+	*//**
 	 * Creates an XML file with the Root element, and records name (parent node
 	 * of all records) and the data from a 2D array.
 	 * 
@@ -115,7 +115,7 @@ public class XmlDataManipulator {
 	 * @param columnNames
 	 *            : Elements inside recordNodeName such as "Name", "Roll Num",
 	 *            etc..
-	 */
+	 *//*
 	public void createXML(String[][] data, String filePath, String rootEle,
 			String recordNodeName, String[] columnNames) {
 		try {
@@ -162,7 +162,7 @@ public class XmlDataManipulator {
 		}
 	}
 
-	/*
+	
 	 * public static void main(String argv[]) {
 	 * 
 	 * String[] columns = {"first","last","Nick","Sal"};
@@ -179,6 +179,7 @@ public class XmlDataManipulator {
 	 * 
 	 * new XMLFileIO().createXML(items, "file.xml", "class", "student",
 	 * columns); }
-	 */
+	 
 
 }
+*/

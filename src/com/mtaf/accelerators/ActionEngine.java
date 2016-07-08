@@ -1,5 +1,6 @@
 /**
- * com.gtaf is a group of Selenium accelerators
+ * com.mtaf is a group of Selenium accelerators
+ * mtaf means - microstrategy test automation framework
  */
 package com.mtaf.accelerators;
 
@@ -8,7 +9,6 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -20,7 +20,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import com.mtaf.utilities.Reporter;
 import com.thoughtworks.selenium.SeleniumException;
 
@@ -28,6 +27,7 @@ import com.thoughtworks.selenium.SeleniumException;
  * ActionEngine is a wrapper class of Selenium actions
  */
 public class ActionEngine extends TestEngine {
+
 	public static WebDriverWait wait;
 
 	static String bool = configProps.getProperty("OnSuccessReports");
@@ -39,7 +39,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to click a button or link
 	// Input Parameters :identifyBy, locator
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static void click(String identifyBy, String locator)
 			throws Throwable {
@@ -84,7 +84,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to validate the existence of an element
 	// Input Parameters :identifier, locator
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static boolean isElementPresent(String identifyBy, String locator)
 			throws Throwable {
@@ -259,7 +259,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to validate the absence of an element
 	// Input Parameters :identifier, locator
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// ############################################################################# 
 	public static boolean verifyElementPresent(String identifyBy, String locator)
 	    {
@@ -340,7 +340,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to validate the existence of a popup
 	// Input Parameters :None
 	// Return Value : boolean
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static boolean isAlertPresent() throws Throwable {
 
@@ -361,7 +361,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to accept the popup
 	// Input Parameters : None
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static void acceptAlert() throws Throwable {
 		try {
@@ -381,7 +381,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to dismiss the popup
 	// Input Parameters : None
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static void dismissAlert() throws Throwable {
 		try {
@@ -402,7 +402,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to type in text box
 	// Input Parameters :identifier, locator and value to be typed
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static void type(String identifyBy, String locator,
 			String valuetoType) throws Throwable {
@@ -454,7 +454,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to append the text in text box
 	// Input Parameters :identifier, locator and value to be typed
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static void sendKeys(String identifyBy, String locator,
 			String valuetoType) throws Throwable {
@@ -499,7 +499,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to move the mouse on to specific element
 	// Input Parameters :identifier, locator
 	// Return Value : boolean
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static void mouseOver(String identifyBy, String locator)
 			throws Throwable {
@@ -547,7 +547,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to drag the mouse
 	// Input Parameters :identifier, locator,XOffset,YOffset
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static void draggable(String identifyBy, String locator, int x, int y)
 			throws Throwable {
@@ -610,7 +610,7 @@ public class ActionEngine extends TestEngine {
 	// // Description : Function to drag the mouse
 	// // Input Parameters : driver, identifier, locator
 	// // Return Value : None
-	// // Author : Priya Batchu
+	// // Author : Archana Munukuntla
 	// //
 	// #############################################################################
 	public static void draganddrop(String srcIdentify, String srcLocation,
@@ -696,7 +696,7 @@ public class ActionEngine extends TestEngine {
 	// visibleText
 	// Input Parameters :identifier, locator,visibleText
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static boolean selectBySendkeys(String identifyBy, String locator,
 			String visibleText) throws Throwable {
@@ -744,7 +744,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to Select a value from the DropDown using index
 	// Input Parameters :identifier, locator,index
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static void selectByIndex(String identifyBy, String locator,
 			int index) throws Throwable {
@@ -789,7 +789,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to Select a value from the DropDown using value
 	// Input Parameters :identifier, locator,value
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static void selectByValue(String identifyBy, String locator,
 			String value) throws Throwable {
@@ -834,7 +834,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to switch to a specific window
 	// Input Parameters : windowTitle
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static void switchWindowByTitle(WebDriver driver, String windowTitle)
 			throws Throwable {
@@ -864,7 +864,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to switch to a specific window
 	// Input Parameters : windowTitle
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static void switchToLastWindow() throws Throwable {
 
@@ -886,7 +886,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to Find the Number of columns in a table
 	// Input Parameters : identifier,locator
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 
 	public static int getTableColumncount(String identifyBy, String locator)
@@ -944,7 +944,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to Find the Number of rows in a table
 	// Input Parameters : identifier,locator
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 
 	public static int getTableRowCount(String identifyBy, String locator)
@@ -1004,7 +1004,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to Verify Weather The Checkbox is Selected or Not
 	// Input Parameters :identifier, locator
 	// Return Value : boolean
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static boolean isChecked(String identifyBy, String locator)
 			throws Throwable {
@@ -1066,7 +1066,7 @@ public class ActionEngine extends TestEngine {
 		// Description : Function to Select a radio button
 		// Input Parameters :identifier, locator
 		// Return Value : None
-		// Author : Priya Batchu
+		// Author : Archana Munukuntla
 		// #############################################################################
 	
     public static void selectRadiobutton( String identifyBy,String locator)throws Throwable
@@ -1119,7 +1119,7 @@ public class ActionEngine extends TestEngine {
  		// Description : Function to Select a radio button
  		// Input Parameters :identifier, locator,and check flag to be switched on/off
  		// Return Value : None
- 		// Author : Priya Batchu
+ 		// Author : Archana Munukuntla
  		// #############################################################################
  	
 
@@ -1213,7 +1213,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to get the Css value
 	// Input Parameters :identifier, locator and cssattribute
 	// Return Value : String
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 
 	public static String getCssValue(String identifyBy, String locator,
@@ -1270,7 +1270,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to get the text from the webpage
 	// Input Parameters :identifier, locator
 	// Return Value : String
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 
 	public static String getText(String identifyBy, String locator)
@@ -1322,7 +1322,7 @@ public class ActionEngine extends TestEngine {
 		// Description : Function to take screenShot
 		// Input Parameters :fileName
 		// Return Value : None
-		// Author : Priya Batchu
+		// Author : Archana Munukuntla
 		// #############################################################################
 	public static void screenShot(String fileName) {
 		File scrFile = ((TakesScreenshot) driver)
@@ -1341,7 +1341,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to move the mouse on to specific element
 	// Input Parameters :identifier, locator 
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static void mouseHoverByJavaScript(String identifyBy, String locator)
 			throws Throwable {
@@ -1426,7 +1426,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to click a button or link
 	// Input Parameters :identifier, locator 
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static void JSClick(String identifyBy, String locator)
 			throws Throwable {
@@ -1494,7 +1494,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to switch to a frame
 	// Input Parameters :index
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static void switchToFrameByIndex(int index) throws Throwable {
 
@@ -1515,7 +1515,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to switch to a frame
 	// Input Parameters :name
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static void switchToFrameByName(String name) throws Throwable {
 
@@ -1536,7 +1536,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to switch to a default frame
 	// Input Parameters :None
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static void switchToDefaultFrame() throws Throwable {
 
@@ -1557,7 +1557,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to switch to a frame
 	// Input Parameters :identifier, locator
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static void switchToFrameByLocator(String identifyBy, String locator)
 			throws Throwable {
@@ -1601,7 +1601,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to wait selenium until element present on web page
 	// Input Parameters :None
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 
 	public static void ImplicitWait() {
@@ -1617,7 +1617,7 @@ public class ActionEngine extends TestEngine {
 		// Description : Function to wait selenium until element present on web page
 		// Input Parameters :None
 		// Return Value : None
-		// Author : Priya Batchu
+		// Author : Archana Munukuntla
 		// #############################################################################
 
 		public static void waitForElementPresent(String identifyBy, String locator) throws Throwable {
@@ -1747,7 +1747,7 @@ public class ActionEngine extends TestEngine {
 	// Description : Function to highlight the element
 	// Input Parameters : driver, identifier, locator
 	// Return Value : None
-	// Author : Priya Batchu
+	// Author : Archana Munukuntla
 	// #############################################################################
 	public static void highlight(WebElement element) {
 
@@ -1762,7 +1762,7 @@ public class ActionEngine extends TestEngine {
 		// Description : Function to switch to a frame
 		// Input Parameters :identifier, locator
 		// Return Value : None
-		// Author : Priya Batchu
+		// Author : Archana Munukuntla
 		// #############################################################################
 		public static void getListCount(String identifyBy, String locator)
 				throws Throwable {

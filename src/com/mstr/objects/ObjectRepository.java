@@ -1,14 +1,9 @@
 package com.mstr.objects;
 
-
-	
-
-	import java.io.File;
-
-	import javax.xml.parsers.DocumentBuilder;
+import java.io.File;
+import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-
-	import org.w3c.dom.Document;
+import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -16,8 +11,8 @@ import org.w3c.dom.NodeList;
 import com.mtaf.utilities.Reporter;
 
 	public class ObjectRepository {
-		 static DocumentBuilderFactory docBuilderFactory = null;
-	     static DocumentBuilder docBuilder = null;
+		static DocumentBuilderFactory docBuilderFactory = null;
+	    static DocumentBuilder docBuilder = null;
 	    static  Document doc = null;
 
 		public static String getIdentify(String objectName) throws Throwable

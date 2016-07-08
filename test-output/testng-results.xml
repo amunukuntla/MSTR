@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="MSTR_Automation" duration-ms="19" started-at="2016-07-08T02:42:07Z" finished-at="2016-07-08T02:42:07Z">
+  <suite name="MSTR_Automation" duration-ms="19" started-at="2016-07-08T14:13:46Z" finished-at="2016-07-08T14:13:46Z">
     <groups>
     </groups>
-    <test name="Grouping" duration-ms="19" started-at="2016-07-08T02:42:07Z" finished-at="2016-07-08T02:42:07Z">
-      <class name="com.mstr.scripts.LoginTest">
-        <test-method status="PASS" signature="openConnection()[pri:0, instance:com.mstr.scripts.LoginTest@ea4a92b]" name="openConnection" is-config="true" duration-ms="9" started-at="2016-07-07T22:42:07Z" finished-at="2016-07-07T22:42:07Z">
+    <test name="Grouping" duration-ms="19" started-at="2016-07-08T14:13:46Z" finished-at="2016-07-08T14:13:46Z">
+      <class name="com.mstr.scripts.SampleTestScript">
+        <test-method status="PASS" signature="openConnection()[pri:0, instance:com.mstr.scripts.SampleTestScript@ea4a92b]" name="openConnection" is-config="true" duration-ms="9" started-at="2016-07-08T10:13:46Z" finished-at="2016-07-08T10:13:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openConnection -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.mstr.scripts.LoginTest@ea4a92b]" name="openBrowser" is-config="true" duration-ms="0" started-at="2016-07-07T22:42:07Z" finished-at="2016-07-07T22:42:07Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.mstr.scripts.SampleTestScript@ea4a92b]" name="openBrowser" is-config="true" duration-ms="1" started-at="2016-07-08T10:13:46Z" finished-at="2016-07-08T10:13:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.mstr.scripts.LoginTest@ea4a92b]" name="testLogin" duration-ms="0" started-at="2016-07-07T22:42:07Z" finished-at="2016-07-07T22:42:07Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.mstr.scripts.SampleTestScript@ea4a92b]" name="testLogin" duration-ms="0" started-at="2016-07-08T10:13:46Z" finished-at="2016-07-08T10:13:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mstr.scripts.LoginTest@ea4a92b]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-07-07T22:42:07Z" finished-at="2016-07-07T22:42:07Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mstr.scripts.SampleTestScript@ea4a92b]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-07-08T10:13:46Z" finished-at="2016-07-08T10:13:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.mstr.scripts.LoginTest@ea4a92b]" name="openBrowser" is-config="true" duration-ms="0" started-at="2016-07-07T22:42:07Z" finished-at="2016-07-07T22:42:07Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.mstr.scripts.SampleTestScript@ea4a92b]" name="openBrowser" is-config="true" duration-ms="0" started-at="2016-07-08T10:13:46Z" finished-at="2016-07-08T10:13:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testRegister()[pri:0, instance:com.mstr.scripts.LoginTest@ea4a92b]" name="testRegister" duration-ms="0" started-at="2016-07-07T22:42:07Z" finished-at="2016-07-07T22:42:07Z">
+        <test-method status="PASS" signature="testRegister()[pri:0, instance:com.mstr.scripts.SampleTestScript@ea4a92b]" name="testRegister" duration-ms="0" started-at="2016-07-08T10:13:46Z" finished-at="2016-07-08T10:13:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegister -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mstr.scripts.LoginTest@ea4a92b]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-07-07T22:42:07Z" finished-at="2016-07-07T22:42:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="closeConnection()[pri:0, instance:com.mstr.scripts.LoginTest@ea4a92b]" name="closeConnection" is-config="true" duration-ms="0" started-at="2016-07-07T22:42:07Z" finished-at="2016-07-07T22:42:07Z">
+        <test-method status="PASS" signature="closeConnection()[pri:0, instance:com.mstr.scripts.SampleTestScript@ea4a92b]" name="closeConnection" is-config="true" duration-ms="1" started-at="2016-07-08T10:13:46Z" finished-at="2016-07-08T10:13:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeConnection -->
-      </class> <!-- com.mstr.scripts.LoginTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mstr.scripts.SampleTestScript@ea4a92b]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-07-08T10:13:46Z" finished-at="2016-07-08T10:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.mstr.scripts.SampleTestScript -->
     </test> <!-- Grouping -->
   </suite> <!-- MSTR_Automation -->
 </testng-results>

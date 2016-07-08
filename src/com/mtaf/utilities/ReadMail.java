@@ -22,8 +22,8 @@ public class ReadMail {
 	public static Session session = null;
 	public static Store store = null;
 	public static Folder inbox = null;
-	public static String userName = "cigniti30031984@gmail.com";
-	public static String password = "user@cigniti";
+	public static String userName = "";
+	public static String password = "";
 
 	public static String readQuikFlixResetLink() {
 

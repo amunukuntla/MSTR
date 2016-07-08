@@ -74,8 +74,6 @@ public class ReadExcel{
         System.setOut(lpsOut);
   	    tng.run();
   		
-  	//	System.out.println(suite.toXml());
-  		
   		if(configProps.getProperty("ReRunFailureTestCases").equals("True"))
   		{
   		
@@ -112,9 +110,9 @@ public class ReadExcel{
  
  @Test
   public static void main() throws IOException {
-    ReadExcel test = new ReadExcel();
-    test.setInputFile("Run_Excel\\Run.xls");
-    test.read();
+    //ReadExcel test = new ReadExcel();
+    //test.setInputFile("Run_Excel\\Run.xls");
+    //test.read();
   }
  
 }

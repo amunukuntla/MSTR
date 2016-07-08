@@ -2,7 +2,7 @@
 <!DOCTYPE project [
 ]>
 
-<project name="Learning TestNG" default="usage" basedir=".">  
+<project name="MSTR_Automation" default="usage" basedir=".">  
 
 <!-- ========== Initialize Properties =================================== -->
     <property environment="env"/>
@@ -37,12 +37,6 @@
         </condition>
         <taskdef name="testng" classpath="${test.classpath}"
                classname="org.testng.TestNGAntTask" />
-    	
-    	<!-- <taskdef name="testng" classname="org.testng.TestNGAntTask">
-    		<classpath>
-    		<pathelement location="C:/Users/amunukuntla/.p2/pool/plugins/org.testng.eclipse_6.9.11.201604020423/lib/testng.jar"/>
-    		</classpath>
-    	  </taskdef>-->
     
     </target>
   

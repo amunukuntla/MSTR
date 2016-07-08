@@ -1,14 +1,5 @@
 package com.mtaf.support;
 
-/**
- * 
- */
-
-/**
- * @author IN00589
- *
- */
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.Calendar;
@@ -80,11 +71,6 @@ public class ExcelReader {
 
 	}
 
-	/*
-	 * 20000
-	 * 
-	 * 15000
-	 */
 	// returns the data from a cell
 	public String getCellData(String sheetName, String colName, int rowNum) {
 		try {

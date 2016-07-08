@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+
+<suite name="MSTR_Automation" allow-return-values="true">
+
+	<test name="Grouping" preserve-order="true">
+		
+		<classes>
+			<class name="com.mstr.scripts.LoginTest" />
+		</classes>
+	</test>
+</suite>

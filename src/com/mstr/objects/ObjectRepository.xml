@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PageFactory>  
+ <page>
+    <title>SalesForce Login page</title>
+    	<object><name>MSTRWeb</name><identifyBy>xpath</identifyBy><value>//*[@id='mstrWeb']/button</value></object>
+    	<object><name>UserMessage</name><identifyBy>id</identifyBy><value>mstr21</value></object>
+    	<object><name>UserCredentials</name><identifyBy>xpath</identifyBy><value>//*[@id='toggleLoginMode']/a</value></object>
+    	<object><name>Username</name><identifyBy>id</identifyBy><value>Uid</value></object>
+    	<object><name>Login</name><identifyBy>xpath</identifyBy><value>//*[@value='Login']</value></object>
+    	<object><name>Continue</name><identifyBy>xpath</identifyBy><value>//*[@value='Continue']</value></object>
+    	<object><name>Dashboards</name><identifyBy>xpath</identifyBy><value>html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div[3]/div/div/div/div/div/div/div/div/div[8]/div[1]/img</value></object>
+    	<object><name>Wirelessbill</name><identifyBy>xpath</identifyBy><value>html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div[3]/div/div/div/div/div/div/div/div/div[11]/div[1]/div[1]/div</value></object>
+    	<object><name>WirelessSummary</name><identifyBy>xpath</identifyBy><value>html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div[3]/div/div/div[1]/div/div[2]/div</value></object>
+    	<object><name>UserMessage</name><identifyBy>id</identifyBy><value>mstr21</value></object>
+    	<object><name>UserMessage</name><identifyBy>id</identifyBy><value>mstr21</value></object>
+    	<object><name>UserMessage</name><identifyBy>id</identifyBy><value>mstr21</value></object>
+    	<object><name>UserMessage</name><identifyBy>id</identifyBy><value>mstr21</value></object>
+    	
+    	
+		<object><name>MSTREnterpriseSection</name><identifyBy>xpath</identifyBy><value>html/body/div[2]</value></object>    
+ </page>  
+</PageFactory>

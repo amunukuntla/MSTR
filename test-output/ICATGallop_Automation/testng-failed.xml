@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ICATGallop_Automation]" allow-return-values="true">
+  <test name="Grouping(failed)">
+    <classes>
+      <class name="com.sugarcrm.scripts.Assignment8">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="GoogleSignIn"/>
+          <include name="setupSuite"/>
+        </methods>
+      </class> <!-- com.sugarcrm.scripts.Assignment8 -->
+      <class name="com.sugarcrm.scripts.Assignment2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="GoogleResultLinks"/>
+        </methods>
+      </class> <!-- com.sugarcrm.scripts.Assignment2 -->
+      <class name="com.sugarcrm.scripts.Assignment1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="GoogleHomeLinks"/>
+        </methods>
+      </class> <!-- com.sugarcrm.scripts.Assignment1 -->
+    </classes>
+  </test> <!-- Grouping(failed) -->
+</suite> <!-- Failed suite [ICATGallop_Automation] -->
